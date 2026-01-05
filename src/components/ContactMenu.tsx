@@ -3,7 +3,7 @@ import { IoLogoFacebook, IoLogoInstagram,IoCart, IoMail,IoCall } from "react-ico
 
 function ContactMenu(){
     return(
-        <address className=" bg-sky-300 p-px justify-center flex">
+        <address className=" bg-sky-300 p-px justify-center flex cursor-pointer">
             <IoCall className="text-white text-base m-2"/>
             <p className="text-white text-[17px] m-1">     
                 5576893421
@@ -22,7 +22,7 @@ function ContactMenu(){
                 href="https://www.instagram.com/"
                 target="_blank"
             >
-                    <IoLogoInstagram  className="text-white text-base m-2"/>
+                    <IoLogoInstagram  className="text-black text-base m-2"/>
             </a>
             <a 
                 href="/"
