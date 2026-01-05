@@ -31,7 +31,7 @@ export const Menu = () => {
                 <li className="inline-block leading-10 mx-1"> 
                     <a 
                         href="/" 
-                        className="text-black text-lg px-4 py-3 rounded-xl
+                        className="text-black text-xl px-4 py-3 rounded-xl
                             hover:bg-[#40a0ed] transition duration-500"
                         target="_parent">
                              Inicio 
@@ -40,7 +40,7 @@ export const Menu = () => {
                 <li className="inline-block leading-10 mx-1"> 
                     <a 
                         href="cita.html"
-                        className="text-black text-lg px-4 py-3 rounded-xl 
+                        className="text-black text-xl px-4 py-3 rounded-xl 
                             hover:bg-[#40a0ed] transition duration-500" 
                         target="_blank">
                         Agendar cita
@@ -49,7 +49,7 @@ export const Menu = () => {
                 <li className="inline-block leading-10 mx-1"> 
                     <a 
                         href="contacto.html" 
-                        className="text-black text-lg px-4 py-3 rounded-xl 
+                        className="text-black text-xl px-4 py-3 rounded-xl 
                             hover:bg-[#40a0ed] transition duration-500"
                         target="_blank">
                         Contacto
@@ -58,7 +58,7 @@ export const Menu = () => {
                 <li className="inline-block leading-80 mx-4">
                     <a 
                         href="tienda.html" 
-                        className="text-black text-lg px-4 py-3 rounded-xl
+                        className="text-black text-xl px-4 py-3 rounded-xl
                             hover:bg-[#40a0ed] transition duration-500"
                         target="_blank">
                         Tienda
