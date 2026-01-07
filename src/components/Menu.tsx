@@ -1,38 +1,39 @@
-import { IoCloseCircle, IoReorderThreeSharp, IoSearchSharp } from "react-icons/io5";
+import { IoSearchSharp } from "react-icons/io5";
 
 
+const iconLinkClass="text-black text-xl px-4 py-3 rounded-xl hover:bg-[#40a0ed] transition duration-500";
 
 export const Menu = () => {
     return (
-        <header className="bg-white h-15 w-full flex justify-between items-center">
+        <header className="relative z-10 h-22 flex justify-between items-center bg-white ">
         
         {/* Logo */}
-        <div className="max-w-13 mx-8">
+        <div className="mx-8">
             <a href="index.html" target="_parent">
                 <img 
                 src ="/img/Logo.jpg" 
                 alt ="logo hospital" 
                 title="Street Hospital"
+                className="max-w-[80px] -h-auto"
                 />
             </a>
         </div>
 
-        {/*Boton menu movil */}
+        {/*Boton menu movil 
         <button className="md:hidden text-2x1 mx-4" id="open"> 
             <IoReorderThreeSharp />
-        </button>
+        </button>*/}
 
         {/*Navegacion*/}
         <nav className="m-2" id="nav">
-            <button className="closed" id="closed"> 
-                <IoCloseCircle />
-            </button>
+            {/*<button className="closed" id="closed"> 
+                <IoCloseCircle /> 
+            </button>*/}
             <ul className="flex items-center">
                 <li className="inline-block leading-10 mx-1"> 
                     <a 
                         href="/" 
-                        className="text-black text-xl px-4 py-3 rounded-xl
-                            hover:bg-[#40a0ed] transition duration-500"
+                        className={iconLinkClass}
                         target="_parent">
                              Inicio 
                     </a> 
@@ -40,8 +41,7 @@ export const Menu = () => {
                 <li className="inline-block leading-10 mx-1"> 
                     <a 
                         href="cita.html"
-                        className="text-black text-xl px-4 py-3 rounded-xl 
-                            hover:bg-[#40a0ed] transition duration-500" 
+                        className={iconLinkClass}
                         target="_blank">
                         Agendar cita
                     </a> 
@@ -49,8 +49,7 @@ export const Menu = () => {
                 <li className="inline-block leading-10 mx-1"> 
                     <a 
                         href="contacto.html" 
-                        className="text-black text-xl px-4 py-3 rounded-xl 
-                            hover:bg-[#40a0ed] transition duration-500"
+                        className={iconLinkClass}
                         target="_blank">
                         Contacto
                     </a>
@@ -58,8 +57,7 @@ export const Menu = () => {
                 <li className="inline-block leading-80 mx-4">
                     <a 
                         href="tienda.html" 
-                        className="text-black text-xl px-4 py-3 rounded-xl
-                            hover:bg-[#40a0ed] transition duration-500"
+                        className={iconLinkClass}
                         target="_blank">
                         Tienda
                     </a>
