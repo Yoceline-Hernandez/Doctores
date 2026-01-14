@@ -9,7 +9,6 @@ export function Carrusel({images}:caruselProp){
                 alt="imagen carrusel" 
                 className="w-full h-full object-cover transition-all duration-700"
             />
-            
         </div>
     )
 }
