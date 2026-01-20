@@ -14,7 +14,6 @@ export function ServiciosList(){
                     <Servicios key={servicio.id} servicio={servicio}/>
                 ))}
             </div>
-
         </>
     );
 }
