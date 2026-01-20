@@ -15,7 +15,7 @@ export const product: Productos[] = [
     imagen: "tienda1",
     description:
       "Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.",
-    price: 299,
+    price: 520,
   },
   {
     id: 3,
@@ -23,7 +23,7 @@ export const product: Productos[] = [
     imagen: "tienda2",
     description:
       "Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.",
-    price: 299,
+    price: 150,
   },
   {
     id: 4,
@@ -31,7 +31,7 @@ export const product: Productos[] = [
     imagen: "tienda1",
     description:
       "Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.",
-    price: 299,
+    price: 230,
   },
   {
     id: 5,
@@ -39,7 +39,7 @@ export const product: Productos[] = [
     imagen: "tienda",
     description:
       "Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.",
-    price: 299,
+    price: 420,
   },
   {
     id: 6,
@@ -47,7 +47,15 @@ export const product: Productos[] = [
     imagen: "tienda2",
     description:
       "Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.",
-    price: 299,
+    price: 160,
+  },
+  {
+    id: 6,
+    products: "Pijama ",
+    imagen: "tienda2",
+    description:
+      "Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.",
+    price: 287,
   },
   {
     id: 7,
@@ -63,7 +71,7 @@ export const product: Productos[] = [
     imagen: "tienda1",
     description:
       "Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.",
-    price: 299,
+    price: 180,
   },
   {
     id: 9,
@@ -71,6 +79,6 @@ export const product: Productos[] = [
     imagen: "tienda",
     description:
       "Morbi ornare augue nisl, vel elementum dui mollis vel. Curabitur non ex id eros fermentum hendrerit.",
-    price: 299,
+    price: 200,
   },
 ];
