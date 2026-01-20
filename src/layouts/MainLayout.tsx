@@ -1,7 +1,7 @@
 import { Outlet } from "react-router-dom";
 import { Menu } from "../components/menu/Menu";
-import Footer from "../components/Footer";
 import ContactMenu from "../components/menu/ContactMenu";
+import Footer from "../components/Footer";
 
 export function MainLayout() {
   return (

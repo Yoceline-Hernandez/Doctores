@@ -1,4 +1,4 @@
-import { ImgCarrusel } from "./carrusel/ImgCarrusel";
+import { ImgCarrusel } from "./Carrusel/ImgCarrusel";
 import { ServiciosList } from "./servicios/ServiciosList";
 
 export function Inicio() {

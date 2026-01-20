@@ -12,7 +12,7 @@ export const Menu = () => {
         {/* Para que funcione como se sutituye la etiqueta a con link
             y src con el to paa que no recargue toda la pagina y solo recargue el componente
         */}
-        <Link to="/inicio">
+        <Link to="/">
           <img
             src="/img/Logo.jpg"
             alt="logo hospital"
