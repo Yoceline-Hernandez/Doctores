@@ -48,7 +48,7 @@ export const Menu = () => {
                 </li>
                 <li className="inline-block leading-10 mx-1"> 
                     <a 
-                        href="contacto.html" 
+                        href="/contacto" 
                         className={iconLinkClass}
                         target="_blank">
                         Contacto
