@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import { MainLayout } from "../layouts/MainLayout";
-import Tienda from "../components/tienda/Tienda";
 import { Inicio } from "../components/Inicio";
+import { TiendaList } from "../components/tienda/TiendaList";
 
 
 export function AppRoutes() {
@@ -9,7 +9,7 @@ export function AppRoutes() {
     <Routes>
         <Route element={<MainLayout />}>
             <Route path="/" element={<Inicio/>}/>
-            <Route path="/tienda" element={<Tienda/>} />
+            <Route path="/tienda" element={<TiendaList/>} />
         </Route>
     </Routes>
   );
