@@ -1,28 +1,31 @@
-export function Contacto() {
+export function Contacto () {
   return (
-    <div className="flex justify-center items-center">
-      <div className="flex flex-col items-center border h-96 w-96 mt-20 p-4 shadow-lg">
-        <h2 className="text-center text-4xl title">Contactanos</h2>
+    <div className="flex justify-center items-center scale-[1.1]">
+      <div className="flex flex-col items-center mt-20 p-4 shadow-xl shadow-cyan-300/30">
+        <h2 className="text-center text-4xl title bg-white">Contactanos</h2>
         <form className="flex flex-col  m-8 p-4 gap-4">
+          <label htmlFor="name">Nombre completo</label>
           <input
             type="text"
-            id="nombre"
-            name="nombre"
-            placeholder="Escribe tu nombre"
-            className="border border-cyan-200 text-lg"
+            className="border border-sky-200 text-lg"
+
           />
+          <label htmlFor="email">Correo electronico</label>
           <input
             type="email"
-            id="email"
-            name="email"
             placeholder="nombre@ejemplo.com"
-            className="border border-cyan-200 text-lg"
+            className="border border-sky-200 text-lg"
+
           />
         </form>
-        <button className=" bg-cyan-500 text-white px-4 py-2 rounded-lg hover:bg-cyan-600 transition duration-300">
-          Enviar
+        <button
+          className="border border-sky-500  px-4 py-2 rounded-xl 
+              hover:bg-sky-300 shadow-sky-300/30 hover:text-white transition duration-300"
+          type="submit"
+        >
+          Enviar mensaje
         </button>
       </div>
     </div>
   );
-}
+};
